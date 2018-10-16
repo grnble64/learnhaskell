@@ -1,1 +1,2 @@
 # learnhaskell
+# (hutsuu no haskell)
