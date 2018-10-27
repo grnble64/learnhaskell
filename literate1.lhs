@@ -1,6 +1,7 @@
-> main = print $ square 5
+> main = do n <- readLn :: IO Integer 
+>           print $ square $ n
 
 関数 square は数値 n の2乗を返す。
 
-> square :: Int -> Int
+> square :: Integer -> Integer
 > square n = n * n
